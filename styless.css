@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1d1e28;
+}
+
+.countdown-soon-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  transform: translate(10px, 300px);
+}
+
+.soon-style {
+  font-family: Red Hat Text;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.81px;
+  letter-spacing: 6.136363506317139px;
+  text-align: center;
+  color: white;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.countdown-section {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  gap: 16px;
+}
+
+.number {
+  font-family: Red Hat Text;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -1.0800000429153442px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fb5e84;
+  background-color: #343650;
+  padding: 14px 11px 19px;
+}
+
+.countdown-label {
+  font-family: Red Hat Text;
+  font-size: 7px;
+  font-weight: 700;
+  line-height: 9.26px;
+  letter-spacing: 2.9593749046325684px;
+  text-align: center;
+  color: #8385a9;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
