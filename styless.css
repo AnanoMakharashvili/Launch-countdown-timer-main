@@ -55,6 +55,7 @@ main {
   color: #fb5e84;
   background-color: #343650;
   padding: 14px 11px 19px;
+  width: 70px;
 }
 
 .countdown-label {
@@ -72,4 +73,44 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 32px;
+  transform: translate(-8px, -50px);
+}
+
+@media (min-width: 1024px) {
+  .countdown-soon-section {
+    gap: 50px;
+  }
+  .soon-style {
+    font-size: 22px;
+  }
+
+  .number {
+    font-size: 80px;
+    font-weight: 700;
+    width: 148px;
+  }
+
+  .countdown-label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.52px;
+    letter-spacing: 5.918749809265137px;
+    text-align: center;
+  }
+
+  footer {
+    cursor: pointer;
+  }
+
+  .icon-facebook:hover {
+    background-color: #fb5e84;
+  }
+
+  .icon-pinterest:hover {
+    background-color: #fb5e84;
+  }
+
+  .icon-instagram:hover {
+    background-color: #fb5e84;
+  }
 }
