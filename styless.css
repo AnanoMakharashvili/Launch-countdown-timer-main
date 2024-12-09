@@ -11,6 +11,7 @@ main {
   align-items: center;
   flex-direction: column;
   background-color: #1d1e28;
+  overflow: hidden;
 }
 
 .countdown-soon-section {
