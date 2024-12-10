@@ -69,6 +69,10 @@ main {
   color: #8385a9;
 }
 
+.pattern-hills-style {
+  width: 100%;
+}
+
 footer {
   display: flex;
   flex-direction: row;
